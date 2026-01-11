@@ -1,0 +1,98 @@
+🤖 WINDOWS AUTOMATION CHATBOT - QUICK REFERENCE GUIDE
+================================================================
+
+💬 NATURAL LANGUAGE EXAMPLES:
+----------------------------------------------------------------
+
+GREETINGS & SOCIAL:
+  "hello" / "hi" / "hey"
+  "how are you?"
+  "thank you" / "thanks"
+  "who are you?"
+
+FILES & FOLDERS:
+  "show me the files"
+  "what files are here?"
+  "list the files in this directory"
+  "create a folder called ProjectData"
+  "make a new folder named TestFolder"
+  "delete the folder named OldData"
+  "remove folder TempFiles"
+  "open the Downloads folder"
+
+SYSTEM INFORMATION:
+  "what's my CPU usage?"
+  "how much CPU am I using?"
+  "check cpu"
+  "how much RAM am I using?"
+  "what's my memory usage?"
+  "check memory"
+  "show me system information"
+  "what's my IP address?"
+  "check battery"
+  "battery status"
+  "what time is it?"
+  "show date and time"
+
+OPEN APPLICATIONS:
+  "open notepad"
+  "launch notepad"
+  "start notepad"
+  "open calculator"
+  "open chrome"
+  "launch browser"
+  "open command prompt"
+  "start cmd"
+
+POWER MANAGEMENT:
+  "shutdown the computer"
+  "turn off pc"
+  "restart my computer"
+  "reboot"
+  "lock my screen"
+  "lock pc"
+  "cancel shutdown"
+
+🔢 QUICK SHORTCUTS:
+----------------------------------------------------------------
+  0 - Toggle voice on/off
+  1 - List files
+  2 - Show IP address
+  3 - Detailed system info
+  4 - CPU usage
+  5 - Memory usage
+  6 - Clear screen
+  7 - Help menu
+  8 - Exit program
+  9 - System summary
+
+⚡ SPECIAL COMMANDS:
+----------------------------------------------------------------
+  "help" / "commands" - Show all available commands
+  "clear" / "cls" - Clear the screen
+  "exit" / "quit" - Exit the program
+  "voice on" - Enable text-to-speech
+  "voice off" - Disable text-to-speech
+  "voice toggle" - Toggle voice on/off
+
+💡 TIPS:
+----------------------------------------------------------------
+  • Just type naturally - the bot understands conversational language
+  • You don't need to memorize exact commands
+  • The bot responds to many variations of the same request
+  • Destructive actions (shutdown/restart) require confirmation
+  • All commands are logged to logs.txt
+  • Use shortcuts (0-9) for quick access to common tasks
+
+🎯 USAGE PATTERN:
+----------------------------------------------------------------
+  Instead of:  "list files"
+  Try:         "show me the files" or "what files are here?"
+  
+  Instead of:  "cpu usage"
+  Try:         "what's my CPU usage?" or "how much cpu am I using?"
+  
+  Instead of:  "create folder test"
+  Try:         "create a folder called test" or "make a new folder named test"
+
+================================================================
