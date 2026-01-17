@@ -36,7 +36,8 @@ print(result)
 `;
 
         const python = spawn(PYTHON_ENV, ['-c', pythonScript], {
-            cwd: PYTHON_PROJECT_PATH
+            cwd: PYTHON_PROJECT_PATH,
+            env: { ...process.env, PYTHONIOENCODING: 'utf-8', PYTHONLEGACYWINDOWSSTDIO: 'utf-8' }
         });
 
         let output = '';
@@ -51,6 +52,10 @@ print(result)
         });
 
         python.on('close', (code) => {
+            console.log(`Python process exited with code: ${code}`);
+            console.log(`Output: ${output}`);
+            console.log(`Error output: ${errorOutput}`);
+            
             if (code !== 0 && errorOutput) {
                 return res.status(500).json({ 
                     error: 'Command execution failed', 

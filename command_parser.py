@@ -140,7 +140,7 @@ def parse_command(user_input: str):
         parameters = nlp_result["parameters"]
         
         # Debug info (can be commented out in production)
-        print(f"🎯 NLP Match: {intent} (confidence: {confidence:.2%})")
+        # print(f"🎯 NLP Match: {intent} (confidence: {confidence:.2%})")
         
         # Map intents to actions
         intent_action_map = {

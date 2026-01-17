@@ -18,6 +18,7 @@ Traditional terminal-based chatbot:
 - **Natural Language Understanding**: Chat naturally like "show me my files" or "what's my CPU usage?"
 - **Modern GUI Interface**: ChatGPT-style window with color-coded messages
 - **Conversational Interface**: Friendly chatbot-style interaction with emojis and helpful responses
+- **🤖 Offline AI Program Generator**: Generate complete programs (Python, Java, C, C++) using local LLM - NO INTERNET REQUIRED!
 - **System Monitoring**: CPU, memory, disk usage, battery status, and storage
 - **File Management**: Create, delete, and open folders with simple commands
 - **Application Launcher**: Open WhatsApp, Notepad, Calculator, Chrome, Task Manager, and more
@@ -156,17 +157,37 @@ Bot: 📊 SYSTEM SUMMARY
 - "thank you" / "thanks"
 - "who are you?" / "what's your name?"
 
+#### 🤖 AI Program Generation (NEW!):
+- "write a python program to calculate factorial"
+- "create a java program for bubble sort"
+- "generate python code for fibonacci series"
+- "make a c program to reverse a string"
+- "write cpp code for linked list implementation"
+
+**Note**: Requires Ollama installed. See [OFFLINE_LLM_SETUP.md](OFFLINE_LLM_SETUP.md) for setup instructions.
+
 ## 📝 Project Structure
 ```
 automation_project/
-├── main.py              # Main chatbot interface
-├── command_parser.py    # Natural language command parser
-├── actions.py           # Windows automation functions
-├── voice.py            # Text-to-speech functionality
-├── logger.py           # Activity logging
-├── logs.txt            # Command history log
-├── README.md           # This file
-└── automation_env/     # Virtual environment
+├── main.py                    # Main chatbot interface
+├── hybrid_launcher.py         # Hybrid online/offline launcher
+├── hybrid_chatbot_core.py     # Core chatbot logic
+├── offline_mode_handler.py    # Offline NLP handler
+├── command_parser.py          # Natural language command parser
+├── actions.py                 # Windows automation functions
+├── offline_llm_client.py      # 🆕 Local LLM integration (Ollama)
+├── code_validator.py          # 🆕 Multi-language code validator
+├── program_generator.py       # 🆕 AI program generation pipeline
+├── test_offline_llm.py        # 🆕 Test suite for LLM features
+├── voice.py                   # Text-to-speech functionality
+├── logger.py                  # Activity logging
+├── logs.txt                   # Command history log
+├── README.md                  # This file
+├── OFFLINE_LLM_SETUP.md       # 🆕 Setup guide for AI features
+├── OFFLINE_LLM_FEATURE.md     # 🆕 Detailed feature documentation
+├── setup_offline_llm.bat      # 🆕 Automated setup script
+├── start_program_generator.bat # 🆕 Quick start script
+└── automation_env/            # Virtual environment
 ```
 
 ## 🎯 Key Features Explained
@@ -183,12 +204,15 @@ The chatbot uses pattern matching and keyword recognition to understand conversa
 All interactions are automatically logged to `logs.txt` with timestamps for tracking and debugging.
 
 ## 🔮 Future Enhancements
+- ✅ **Offline AI Program Generator** (COMPLETED!)
 - Web scraping and automation
 - Email sending capabilities
 - Scheduled task automation
 - More advanced NLP with ML models
-- GUI interface option
 - Custom command macros
+- Program explanation and documentation generation
+- Unit test generation for programs
+- Support for more programming languages (Go, Rust, JavaScript)
 
 ## 📄 License
 This is an educational project for learning Python automation.

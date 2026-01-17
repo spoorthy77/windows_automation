@@ -1,53 +1,45 @@
-# 🚀 Windows Automation Assistant - Web Version
+# 🤖 Offline Windows Automation Chatbot with AI Code Generation
 
-## Beautiful React + Node.js + Python Integration
+## 🎉 NEW: AI-Powered Code Generation with Local LLM
 
-A stunning web interface for your Windows automation chatbot, accessible from any browser!
+A **100% offline** Windows automation chatbot enhanced with **local AI code generation**. Generate complete, error-free programs in Python, Java, C, and C++ without internet!
 
-## 🎨 Features
+---
 
-- **Beautiful Modern UI** - Gradient backgrounds, smooth animations, ChatGPT-style interface
-- **Responsive Design** - Works on desktop, tablet, and mobile
-- **Real-time Chat** - Instant responses with typing indicators
-- **Dark Theme** - Easy on the eyes with cyan accents
-- **Smooth Animations** - Fade-in messages, floating header icon, hover effects
-- **Full Automation** - All Python automation features integrated
+## ✨ Features
 
-## 📁 Project Structure
+### 🆕 AI Code Generation (NEW!)
+- **Offline LLM Integration** - Uses Ollama for local AI
+- **Multi-Language Support** - Python, Java, C, C++
+- **Auto Validation** - Checks and compiles code
+- **Error Correction** - Auto-fixes errors (up to 3 attempts)
+- **Smart Detection** - Auto-detects programming language
+- **Desktop Saving** - Saves programs automatically
+- **Error-Free Output** - Guarantees working code
 
-```
-web-app/
-├── backend/
-│   ├── server.js           # Express.js server
-│   └── package.json        # Backend dependencies
-├── frontend/
-│   ├── public/
-│   │   └── index.html      # HTML template
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── ChatInterface.js    # Main chat component
-│   │   │   └── ChatInterface.css   # Beautiful styling
-│   │   ├── App.js          # Root component
-│   │   ├── index.js        # Entry point
-│   │   └── *.css          # Global styles
-│   └── package.json        # Frontend dependencies
-```
+### 🖥️ Windows Automation (Existing)
+- **System Commands** - Open apps, check battery, CPU usage
+- **File Management** - Create files and folders
+- **Fuzzy Matching** - Handles typos and variations
+- **Natural Language** - Understands plain English
+
+### 🎨 Beautiful Web Interface
+- **Modern UI** - Gradient backgrounds, smooth animations
+- **ChatGPT-style** - Familiar chat interface
+- **Responsive** - Works on desktop, tablet, mobile
+- **Dark Theme** - Cyan accents, easy on eyes
+- **Real-time** - Instant responses
+
+---
 
 ## 🚀 Quick Start
 
-### Step 1: Install Dependencies
+### Prerequisites
+1. **Python 3.8+**
+2. **Ollama** (for AI code generation)
+3. **Node.js** (for web interface - optional)
 
-#### Backend:
-```bash
-cd web-app/backend
-npm install
-```
-
-#### Frontend:
-```bash
-cd web-app/frontend
-npm install
-```
+### Setup (5 Minutes)
 
 ### Step 2: Start the Servers
 
